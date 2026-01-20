@@ -136,6 +136,7 @@ def save_enriched_data(enriched_transactions, filename="data/enriched_sales_data
 
         print("------------------------------------------------")
         print("[8/10] Saving enriched data...")
+        print("✓ Saved to data/enriched_sales_data.txt")
 
     except Exception as e:
         print("✗ Failed to save enriched data")
