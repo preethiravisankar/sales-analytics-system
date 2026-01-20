@@ -189,6 +189,8 @@ def main():
             enriched_transactions=enriched_transactions,
             output_file="output/sales_report.txt"
         )
+        print("------------------------------------------------")
+        print("[10/10] ✓ Process complete")
 
     except FileNotFoundError as e:
         print("    ✗ Unable to read sales data.")
