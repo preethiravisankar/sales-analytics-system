@@ -3,7 +3,7 @@
 **Student Name:** Preethi Ravisankar  
 **Student ID:** BITSoM_BA_25071894  
 **Email:** preethiravisankar@gmail.com  
-**Date:** 15.01.2026  
+**Date:** 20.01.2026  
 
 ## Project Overview
 
@@ -35,10 +35,12 @@ data/enriched_sales_data.txt
 - Sales Analytics Report  
 output/sales_report.txt
 
-## Run Instructions
+## Note to reviewer
 
+- In the provided sales data, the product id starts with 101,102... The json data has products with ids from 1 to 3. Hence the API match returns false in the enrichedsalesdata.txt. 
+
+## Run Instructions
 
 ```bash
 # Run main.py
 python main.py
-
